@@ -1,4 +1,3 @@
-//<?php
 /**
 * Virtual Aliases
 *
@@ -12,7 +11,7 @@
 * @internal @modx_category SEO
 * @internal @installset base, sample
 */
-
+//<?php
 // Virtual Aliases
 // version 0.0.3
 // Allows for an unlimited number of custom aliases per page.
