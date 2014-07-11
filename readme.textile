@@ -1,8 +1,12 @@
 h3. Original Author: Brian Stanback
 
+(http://www.stanback.net/code/modx/virtual-aliases.html)
+
 h2. Installation
 
-* To install, first download the plugin code below.
+*Install with package manager module or:
+
+* download the plugin code below.
 
 * Create a new plugin within the MODx manager and copy and paste the contents of the downloaded code.
 
