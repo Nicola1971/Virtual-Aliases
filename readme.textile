@@ -4,7 +4,7 @@ h3. Original Author: Brian Stanback
 
 h2. Installation
 
-*Install with package manager module or:
+* Install with package manager module or:
 
 * download the plugin code below.
 
