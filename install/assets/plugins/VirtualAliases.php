@@ -1,4 +1,18 @@
 //<?php
+/**
+* Virtual Aliases
+*
+* Allows for an unlimited number of custom aliases per page.
+*
+* @category plugin
+* @version 0.0.3
+* @author Brian Stanback (http://www.stanback.net/code/modx/virtual-aliases.html)
+* @internal @properties &aliasesTV=Aliases TV name;string;Aliases
+* @internal @events OnPageNotFound
+* @internal @modx_category SEO
+* @internal @installset base, sample
+*/
+
 // Virtual Aliases
 // version 0.0.3
 // Allows for an unlimited number of custom aliases per page.
