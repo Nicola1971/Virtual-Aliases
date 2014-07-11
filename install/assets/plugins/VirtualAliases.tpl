@@ -1,33 +1,19 @@
+//<?
 /**
-* Virtual Aliases
-*
-* Allows for an unlimited number of custom aliases per page.
-*
-* @category plugin
-* @version 0.0.3
-* @author Brian Stanback (http://www.stanback.net/code/modx/virtual-aliases.html)
-* @internal @properties &aliasesTV=Aliases TV name;string;Aliases
-* @internal @events OnPageNotFound
-* @internal @modx_category SEO
-* @internal @installset base, sample
-*/
-//<?php
-// Virtual Aliases
-// version 0.0.3
-// Allows for an unlimited number of custom aliases per page.
-// By Brian Stanback @ www.stanback.net
+ * Virtual Aliases
+ *
+ * Allows for an unlimited number of custom aliases per page.
+ *
+ * @category plugin
+ * @version 0.0.3
+ * @author Brian Stanback (http://www.stanback.net/code/modx/virtual-aliases.html)
+ * @internal @properties &aliasesTV=Aliases TV name;string;Aliases
+ * @internal @events OnPageNotFound
+ * @internal @modx_category SEO
+ * @internal @installset base, sample
+ */
 
-// On Install: Check the the "OnPageNotFound" box in the System Events tab.
-// Plugin configuration: &aliasesTV=Aliases TV name;string;Aliases
 
-// For overriding documents, create a new template variabe (TV) named
-// Aliases with the following option:
-//    Input Type: Textarea (Smaller)
-//
-// Aliases should be added to the TV, one per line.
-// Omit any leading or trailing slashes as well as the default suffix (usaully .html)
-
-// Begin plugin code
 $e = &$modx->event;
 
 if ($e->name == "OnPageNotFound") {
